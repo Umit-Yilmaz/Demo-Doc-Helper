@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+   
+}
+
+
+textarea {
+    width: 100%;
+    height: 50%;
+    margin: 10px ;
+    display: block;
+   
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.square {
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    border: 2px solid black; /* Ekledik: Kutucukların sınırlarını belirginleştirir */
+}
+
+#square121{
+    display:none;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+form {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+label, input, button {
+    align-items: center;
+    display: block;
+    margin: 10px;
+}

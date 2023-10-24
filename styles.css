@@ -63,3 +63,12 @@ label, input, button {
     display: block;
     margin: 10px;
 }
+
+#yanyana{
+    display:inline-block;
+}
+
+#lejant{
+    width: 200px;
+    height: 200px;
+}
